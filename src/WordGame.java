@@ -16,7 +16,7 @@ public class WordGame {
     public static void main(String[] args) {
 
         String randomWord =  words[ThreadLocalRandom.current().nextInt(words.length)];
-        System.out.println("загадал " + randomWord); //debug
+       // System.out.println("загадал " + randomWord); //debug
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
 
